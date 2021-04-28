@@ -1,0 +1,219 @@
+html{
+    font-size: 6.25%;
+}
+
+body{
+    width: 697px;
+    border: 1px solid black;
+    margin: 20px auto;
+    box-sizing: border-box;
+    font-family: 'Ropa Sans';
+}
+
+
+/* header */
+
+header{
+    height: 6.3vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    box-shadow: 0 2rem 10rem rgba(0, 0, 0, 0.25);
+}
+
+.hamburguerMenu{
+    height: 25%;
+    margin-left: 72.2%;
+}
+
+
+/* main - portfolio */
+
+.portfolio{
+    margin: 20px 45px 37px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    justify-content: space-around;
+}
+
+.backButton{
+    position: absolute;
+    top: 27%;
+    left: 32%;
+}
+
+.forwardButton{
+    position: absolute;
+    top: 27%;
+    right:32%; 
+}
+
+
+/* style section */
+
+h2{
+    font-size: 25rem;
+    font-weight: 400;
+    text-align: center;
+    color: #888888;
+    margin: 8% 0 0 0;
+}
+
+.industrial, .modern{
+    display: flex;
+    flex-direction: column;
+    width: 87.5%;
+    margin: 0 0 -2% 6%;
+}
+
+.industrial img, .modern img{
+    opacity: 0.5;
+}
+
+.industrial h3, .modern h3{
+    position: relative;
+    top: 55rem;
+    font-size: 25rem;
+    text-align: center;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.25);
+    color: #FFFFFF;
+    z-index: 1;
+}
+
+
+/* featured section */
+
+.featured{
+    display: flex;
+}
+
+.featureNew, .featureSale {
+    margin: 0 0 0 6%;
+    background-color: #EEEEEE;
+    display: flex;
+    flex-direction: column;
+    width: 256px;
+    height: 242px;
+}
+
+.price-new, .price-sale{
+    font-size: 25rem;
+    font-weight: 400;
+    color: #888888;
+    position: relative;
+    left: 8%;
+    top: 8%;
+}
+
+.button-new{
+    font-size: 20rem;
+    font-weight: 400;
+    color: #FFFFFF;
+    background-color: #51D275;
+    border-radius: 10.5px;
+    border: none;
+
+    align-self: flex-end;
+
+    line-height: 100%;
+    width: 25%;
+    margin: -2% 6% 4% 0;
+}
+
+.description-new{
+    text-align: justify;
+    width: 86%;
+    margin: 0 0 0 8%;
+    font-size: 10rem;
+}
+
+.featureSale{
+    margin: 0 0 0 14%;
+}
+
+.button-sale{
+    font-size: 20rem;
+    font-weight: 400;
+    color: #FFFFFF;
+    background-color: #DC9730;
+    border-radius: 10.5px;
+    border: none;
+
+    align-self: flex-end;
+
+    line-height: 100%;
+    width: 25%;
+    margin: -2% 6% 4% 0;
+}
+
+
+/* footer */
+
+footer{
+    width: 697px;
+    height: 243px;
+    margin: 6% 0 0 0;
+    background-color: #333333;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.contactInfo{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;;
+    color: #FFFFFF;
+    font-size: 12rem;
+    font-family: 'Ropa Sans';
+}
+
+.contactInfo-details{
+    font-size: 12rem;
+    font-family: 'Ropa Sans';
+    margin: 49px, 45px, 100px 0px;
+    line-height: 30rem;
+}
+
+.contactInfo-socialMedia h3{
+    text-transform: uppercase;
+    margin: -4% 0 0 0;
+}
+
+.contactInfo-socialMedia-buttons{
+    margin: 5% 0 0 0;
+}
+
+.contactInfo-socialMedia-buttons img{
+    margin-left: 5%;
+}
+
+/* media - responsividade */
+
+@media(min-width: 1903px){
+    
+    /* featured itemns */
+    
+    .backButton{
+        top: 24%;
+        left: 34.5%;
+    }
+
+    .forwardButton{
+        top: 24%;
+        right: 35%;
+    }
+
+    /* footer */
+
+    .contacInfo-details{
+        line-height: 26rem;
+    }
+
+    .contactInfo-socialMedia h3{
+        margin: 7% 0 0 0;
+    }
+}
