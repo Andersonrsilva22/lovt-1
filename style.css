@@ -82,7 +82,6 @@ h2{
     z-index: 1;
 }
 
-
 /* featured section */
 
 .featured{
@@ -180,7 +179,7 @@ footer{
 
 .contactInfo-socialMedia h3{
     text-transform: uppercase;
-    margin: -4% 0 0 0;
+    margin: 15% 0 0 0;
 }
 
 .contactInfo-socialMedia-buttons{
@@ -192,28 +191,30 @@ footer{
 }
 
 /* media - responsividade */
+/* No media query for x-Small devices (portrait phones, less than 576px) */
 
-@media(min-width: 1903px){
-    
-    /* featured itemns */
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) {}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {}
+
+/* X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {}
+
+/* XX-Large devices (larger desktops, 1400px and up) */
+@media(min-width: 1400px){
     
     .backButton{
-        top: 24%;
-        left: 34.5%;
+        top: 23%;
+        left: 35%;
     }
 
-    .forwardButton{
-        top: 24%;
+    .forwardButton {
+        top: 23%;
         right: 35%;
     }
-
-    /* footer */
-
-    .contacInfo-details{
-        line-height: 26rem;
-    }
-
-    .contactInfo-socialMedia h3{
-        margin: 7% 0 0 0;
-    }
-}
+ }
