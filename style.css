@@ -203,7 +203,21 @@ footer{
 @media (min-width: 992px) {}
 
 /* X-Large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) {}
+@media (min-width: 1200px) {
+    .backButton {
+        top: 26%;
+        left: 26%;
+    }
+
+    .forwardButton {
+        top: 26%;
+        right: 26%;
+    }
+
+    .contactInfo {
+        line-height: 167%;
+    }
+}
 
 /* XX-Large devices (larger desktops, 1400px and up) */
 @media(min-width: 1400px){
