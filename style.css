@@ -194,10 +194,34 @@ footer{
 /* No media query for x-Small devices (portrait phones, less than 576px) */
 
 /* Small devices (landscape phones, 576px and up)*/
-@media (min-width: 576px) {}
+@media (min-width: 576px) {
+    .backButton {
+        left: 10%;
+    }
+
+    .forwardButton {
+        right: -11%;
+    }
+
+    .contactInfo {
+        line-height: 167%;
+    }
+}
 
 /* Medium devices (tablets, 768px and up) */
-@media (min-width: 768px) {}
+@media (min-width: 768px) {
+    .backButton {
+        left: 12%;
+    }
+
+    .forwardButton {
+        right: 12%;
+    }
+
+    .contactInfo {
+        line-height: 167%;
+    }
+}
 
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
