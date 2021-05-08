@@ -197,25 +197,12 @@ footer{
 @media (min-width: 576px) {
     .backButton {
         left: 10%;
+        top: 21%;
     }
 
     .forwardButton {
         right: -11%;
-    }
-
-    .contactInfo {
-        line-height: 167%;
-    }
-}
-
-/* Small devices (landscape phones, 576px and up)*/
-@media (min-width: 576px) {
-    .backButton {
-        left: 10%;
-    }
-
-    .forwardButton {
-        right: -11%;
+        top: 21%;
     }
 
     .contactInfo {
@@ -256,12 +243,12 @@ footer{
 /* X-Large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
     .backButton {
-        top: 26%;
+        top: 22%;
         left: 26%;
     }
 
     .forwardButton {
-        top: 26%;
+        top: 22%;
         right: 26%;
     }
 
@@ -274,8 +261,8 @@ footer{
 @media(min-width: 1400px){
     
     .backButton{
-        top: 23%;
-        left: 35%;
+        top: 22%;
+        left: 30%;
     }
 
     .contactInfo{
@@ -284,7 +271,7 @@ footer{
     }
 
     .forwardButton {
-        top: 23%;
-        right: 35%;
+        top: 22%;
+        right: 30%;
     }
  }
