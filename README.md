@@ -15,7 +15,7 @@
 
 - [x] Finalizar HTML
 - [x] Finalizar CSS
-- [x] Finalizar responsividade
+- [ ]Finalizar responsividade
 - [ ] Atualizar README com informações do projeto.
 - [ ] Review do código
 - [ ] Habilitar o projeto no GitHub pages.
