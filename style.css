@@ -191,87 +191,56 @@ footer{
 }
 
 /* media - responsividade */
-/* No media query for x-Small devices (portrait phones, less than 576px) */
-
-/* Small devices (576px and up)*/
-@media (min-width: 576px) {
-    .backButton {
-        left: 10%;
-        top: 21%;
+@media (max-width: 320px) {
+    body{
+        margin: 0;
     }
-
-    .forwardButton {
-        right: -11%;
-        top: 21%;
-    }
-
-    .contactInfo {
-        line-height: 167%;
-    }
-}
-
-/* Medium devices (tablets, 768px and up) */
-@media (min-width: 768px) {
-    .backButton {
-        left: 12%;
-    }
-
-    .forwardButton {
-        right: 12%;
-    }
-
-    .contactInfo {
-        line-height: 167%;
-    }
-}
-
-/* Large devices (desktops, 992px and up) */
-@media (min-width: 992px) {
-    .backButton {
-        left: 21%;
-    }
-
-    .forwardButton {
-        right: 21%;
-    }
-
-    .contactInfo {
-        line-height: 167%;
-    }
-}
-
-/* X-Large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) {
-    .backButton {
-        top: 22%;
-        left: 26%;
-    }
-
-    .forwardButton {
-        top: 22%;
-        right: 26%;
-    }
-
-    .contactInfo {
-        line-height: 167%;
-    }
-}
-
-/* XX-Large devices (larger desktops, 1400px and up) */
-@media(min-width: 1400px){
     
-    .backButton{
-        top: 22%;
-        left: 30%;
+    .headerContainer{
+        width: 189vw;
     }
 
-    .contactInfo{
-        line-height: 159%;
+    .porfolioMainImage{
+        width: 92%;
+        position: relative;
+        right: 5%;
+    }
 
+    .backButton {
+        top: 29%;
+        left: 15%;
     }
 
     .forwardButton {
-        top: 22%;
-        right: 30%;
+        top: 29%;
+        left: 165%;
     }
- }
+
+    .featureNew{
+        margin: 0 0 0 4%;
+    }
+
+    .featureSale{
+        margin: 0 0 0 6%;
+    }
+
+    h2 {
+        margin: 5% 0 0 0;
+        width: 14%;
+        position: relative;
+        left: 37%;
+    }
+
+    .industrial, .modern{
+        width: 84.5%;
+        margin: 0 0 0 1%;
+    }
+
+    footer {
+        width: 91%;
+    }
+
+    .contactInfo-details{
+        line-height: 200%;
+    }
+}
