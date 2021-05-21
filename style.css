@@ -40,14 +40,14 @@ header{
 
 .backButton{
     position: absolute;
-    top: 27%;
-    left: 32%;
+    top: 25%;
+    left: 35%;
 }
 
 .forwardButton{
     position: absolute;
-    top: 27%;
-    right:32%; 
+    top: 25%;
+    right:35%; 
 }
 
 
