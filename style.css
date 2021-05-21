@@ -335,30 +335,15 @@ footer{
     }
 }
 
-/* @media (max-width: 425px){
-    body{
-        width: 425px;
-        margin: 0 auto;
+@media(max-width:425px){
+    .forwardButton{
+        left:139%;
     }
-   
+
     .backButton{
-       left: 16%;
-       top: 19%;
-   }
-
-   .forwardButton{
-       left: 77%;
-       top: 19%;
-   }
-
-   .porfolioMainImage{
-       width: 100%;
-   }
-
-   footer{
-       width:100%;
-   }
-} */
+        left: 14%;
+    }
+}
 
 @media(max-width: 768px){
     .backButton{
@@ -367,5 +352,15 @@ footer{
 
     .forwardButton{
         left: 81%;
+    }
+}
+
+@media(max-width: 1024px){
+    .backButton{
+        left: 22%;
+    }
+
+    .forwardButton{
+        left: 74%;
     }
 }
