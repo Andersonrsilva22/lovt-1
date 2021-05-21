@@ -285,3 +285,52 @@ footer{
         top: 40rem;
     }
 }
+
+@media (max-width: 375px){
+    
+    body{
+        margin: 0 auto;
+        width: 607px;
+    }
+
+    .portfolio{
+        margin: 20px 0px 37px 0;
+    }
+    .porfolioMainImage{
+        width: 88%;
+        position: relative;
+        left: 2%;
+    }
+
+    .backButton{
+        left: 19%;
+        top: 24%;
+    }
+
+    .forwardButton{
+        top: 24%;
+        left: 135%;
+    }
+
+    .featureNew{
+        position: relative;
+        left: 2%;
+    }
+
+    .featureSale{
+        position: relative;
+        right: 9%;
+        width: 39%;
+    }
+
+    .industrial, .modern{
+        width: 83%;
+        margin: 0;
+        position: relative;
+        left: 8%;
+    }
+    
+    footer{
+        width: 607px;
+    }
+}
