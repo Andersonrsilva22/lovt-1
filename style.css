@@ -334,3 +334,38 @@ footer{
         width: 607px;
     }
 }
+
+/* @media (max-width: 425px){
+    body{
+        width: 425px;
+        margin: 0 auto;
+    }
+   
+    .backButton{
+       left: 16%;
+       top: 19%;
+   }
+
+   .forwardButton{
+       left: 77%;
+       top: 19%;
+   }
+
+   .porfolioMainImage{
+       width: 100%;
+   }
+
+   footer{
+       width:100%;
+   }
+} */
+
+@media(max-width: 768px){
+    .backButton{
+        left: 12%;
+    }
+
+    .forwardButton{
+        left: 81%;
+    }
+}
