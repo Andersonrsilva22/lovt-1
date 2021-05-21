@@ -193,54 +193,95 @@ footer{
 /* media - responsividade */
 @media (max-width: 320px) {
     body{
-        margin: 0;
+        width: 100%;
+        margin: 0 auto;
+        border: none;
     }
     
     .headerContainer{
-        width: 189vw;
+        width: 105%;
     }
 
-    .porfolioMainImage{
-        width: 92%;
+    .hamburguerMenu {
+        margin-left: 47%;
+    }
+
+    .portfolio{
         position: relative;
-        right: 5%;
+        left: 3%;
+        margin: 20px 45px 12px 45px;
+    }
+    .porfolioMainImage{
+        width: 129%;
     }
 
     .backButton {
-        top: 29%;
-        left: 15%;
+        top: 44%;
+        left: -10%;
+        width: 24rem;
     }
 
     .forwardButton {
-        top: 29%;
-        left: 165%;
+        top: 44%;
+        left: 100%;
+        width: 24rem;
+    }
+
+    .featured{
+        display: block;
     }
 
     .featureNew{
-        margin: 0 0 0 4%;
+        position: relative;
+        left: 6%;
     }
 
     .featureSale{
-        margin: 0 0 0 6%;
+        position: relative;
+        top: 24rem;
+        right: 2%;
     }
 
     h2 {
-        margin: 5% 0 0 0;
-        width: 14%;
         position: relative;
-        left: 37%;
+        top: 24rem;
     }
 
     .industrial, .modern{
-        width: 84.5%;
-        margin: 0 0 0 1%;
+        position: relative;
+        top: 15rem;
+    }
+
+    .industrial h3, .modern h3 {
+        position: relative;
+        top: 32rem;
+        font-size: 24rem;
     }
 
     footer {
-        width: 91%;
+        width: 105%;
+        margin: 0 auto;
+        position: relative;
+        top: 40rem;
+        padding-bottom: 35%;
     }
 
+    .map {
+        width: 45rem;
+    }
+    .contactInfo{
+        flex-wrap: nowrap;
+        position: relative;
+        top: 164rem;
+        right: 49rem;
+    }
+
+    .contactInfo-details p {
+        height: 15rem;
+    }
     .contactInfo-details{
         line-height: 200%;
+        position: relative;
+        top: 40rem;
     }
 }
