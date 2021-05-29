@@ -1,4 +1,4 @@
-<img src="bannerReadme.jpg" alt="Banner para o projeto LOVT." />
+<img src="./resources/bannerReadme.jpg" alt="Banner para o projeto LOVT." />
 <P align="center"><i> Projeto LOVT para testar responsividade </i> </p>
 
 <br>
