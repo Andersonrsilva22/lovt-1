@@ -5,12 +5,11 @@
 
     margin-top: 1rem;
     margin-bottom: 0.6rem;
-    margin-right: 1.3rem;
 }
 
 .style__industrial, .style__modern, .style__classic{
     width: 80vw;
-    margin-left: 1.3rem;
+    margin-left: 2.3rem;
 
     opacity: 0.5;
 }
@@ -18,7 +17,6 @@
 .style__industrial--titulo, .style__modern--titulo, .style__classic--titulo{
     color: #FFFFFF;
     text-align: center;
-    margin-right: 1.3rem;
     margin-top: -0.8rem;
     text-shadow: 0.1rem 0.1rem 0.3rem rgba(0, 0, 0, 0.25);
 
