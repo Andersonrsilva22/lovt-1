@@ -55,3 +55,15 @@ ul{
 li{
     padding-bottom: 0.6rem;
 }
+
+@media screen and (min-width: 768px){
+    .rodape__map{
+        width: initial;
+    }
+}
+
+@media screen and (min-width: 1024px){
+    .rodape__map{
+        width: initial;
+    }
+}

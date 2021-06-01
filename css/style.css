@@ -28,4 +28,23 @@
     .style__ttulo{
         font-size: 25px;
     }
+
+    .style__industrial, .style__modern, .style__classic{
+        position: relative;
+        left: 2rem;
+    }
+
+    .style__industrial--titulo, .style__classic--titulo, .style__modern--titulo{
+        font-size: 25px;
+        position: relative;
+        bottom: 45px;
+    }
+}
+
+@media screen and (min-width: 1024px){
+
+    .style__industrial, .style__classic, .style__modern{
+        position: relative;
+        left: 4rem;
+    }
 }
