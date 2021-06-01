@@ -1,0 +1,45 @@
+.rodape{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+    background: #333333;
+}
+
+.rodape__map{
+    width: 154px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.rodape__informacoes{
+    position: relative;
+    top: 10px;
+}
+
+.rodape__informacoes{
+    font-size: 12px;
+    color: #FFFFFF;
+}
+
+.rodape__informacoes--texto{
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.rodape__informacoes--telefone, .rodape__informacoes--email{
+    text-decoration: none;
+    color: white;
+}
+
+.rodape__informacoes--telefone a{
+    margin-top: 1%;
+}
+
+.rodape__social{
+    margin-top: 30px;
+}
+
+.rodape__social--media{
+    width: 5px;
+}
